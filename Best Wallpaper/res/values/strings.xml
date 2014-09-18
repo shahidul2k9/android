@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Best Wallpaper</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="category_list">
+        <item >3D</item>
+        <item >Abstract</item>
+        <item >Android</item>
+        <item >Animal</item>
+        <item >Anime</item>
+        <item>Baby</item>
+        <item >Beaches</item>
+        <item >Beauty</item>
+        <item>Boy</item>
+        <item >Buildings</item>
+        <item >Car</item>
+        <item >Christmas</item>
+        <item >Drawn</item>
+        <item >Fantasy</item>
+        <item >Flower</item> 
+        <item >Funny</item>
+        <item >Game</item>
+        <item >Graffiti</item>
+        <item>Love</item>
+        <item >Military</item> 
+        <item>Movie</item>
+        <item >Music</item>
+        <item>Nature</item>
+        <item >New Year</item>
+        <item >Night</item>
+        <item >Pattern</item>
+        <item >Pet</item>
+        <item >Quote</item>
+        <item>Retro</item>
+        <item >Space</item>
+        <item >Sport</item>
+        <item >Technology</item>
+
+    </string-array>
+<string name="search_title">Search Title</string>
+    <string name="save_text">Save</string>
+    <string name="wallpaper_text">Set as Wallpaper</string>
+    <string name="share_text">Share</string>
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="descr_image">Image</string>
+
+</resources>

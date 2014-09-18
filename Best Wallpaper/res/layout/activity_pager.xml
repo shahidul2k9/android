@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+<android.support.v4.view.ViewPager 
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    />
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0"
+    android:id="@+id/button_container"
+    android:orientation="horizontal" >
+	<LinearLayout android:layout_width="0dip"
+		    android:layout_height="match_parent"
+		    android:gravity="center"
+		    
+		    android:layout_weight="1">
+    <Button
+        android:id="@+id/save"
+        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/save_text"
+        
+        />
+    </LinearLayout>
+    	<LinearLayout android:layout_width="0dip"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:gravity="center">
+
+    <Button
+        android:id="@+id/wallpaper"
+        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/wallpaper_text" 
+        />
+    </LinearLayout>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+		<LinearLayout android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1">
+		    
+		
+
+        <ImageButton
+            android:id="@+id/facebook"
+            android:background="@android:color/transparent"
+            android:layout_width="@dimen/logo_width"
+            android:layout_height="@dimen/logo_height"
+            android:src="@drawable/facebook"
+            android:contentDescription="Facebook"
+            />
+        </LinearLayout>
+		<LinearLayout android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/twitter"
+             android:background="@android:color/transparent"
+            android:layout_width="@dimen/logo_width"
+            android:layout_height="@dimen/logo_height"
+            android:src="@drawable/twitter"
+            android:contentDescription="Twitter"
+            />
+		</LinearLayout>
+        <LinearLayout android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/googleplus"
+            android:background="@android:color/transparent"
+           android:layout_width="@dimen/logo_width"
+            android:layout_height="@dimen/logo_height"
+            android:src="@drawable/googleplus"
+            android:contentDescription="Google Plus"
+            />
+        </LinearLayout>
+		<LinearLayout android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/email"
+             android:background="@android:color/transparent"
+            android:layout_width="@dimen/logo_width"
+            android:layout_height="@dimen/logo_height"
+            android:src="@drawable/email"
+            android:contentDescription="Send Via Email"
+            />
+		</LinearLayout>
+			<LinearLayout android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/sms"
+             android:background="@android:color/transparent"
+            android:layout_width="@dimen/logo_width"
+            android:layout_height="@dimen/logo_height"
+            android:src="@drawable/sms"
+            android:contentDescription="Share via SMS" />
+        </LinearLayout>
+
+   
+</LinearLayout>
+
+
+</LinearLayout>
